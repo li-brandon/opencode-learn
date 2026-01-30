@@ -1,4 +1,4 @@
-# opencode-learn
+# nudge
 
 > AI-powered coding mentor for OpenCode that guides with questions, not answers.
 
