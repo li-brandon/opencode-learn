@@ -8,6 +8,7 @@ Based on the **OwnYourCode** methodology - the Learn agent helps you become a be
 
 - **OpenCode** - Installs to `~/.config/opencode/agents/learn.md`
 - **GitHub Copilot** - Installs to `.github/agents/learn.agent.md` in your project
+- **Claude Code** - Installs to `~/.claude/agents/learn.md` (available globally)
 
 ## Philosophy
 
@@ -42,7 +43,10 @@ bunx @li-brandon/nudge install --opencode
 # GitHub Copilot only
 bunx @li-brandon/nudge install --copilot
 
-# Both platforms
+# Claude Code only
+bunx @li-brandon/nudge install --claudecode
+
+# All platforms
 bunx @li-brandon/nudge install --all
 ```
 
@@ -70,6 +74,7 @@ bunx @li-brandon/nudge install --opencode --model anthropic/claude-sonnet-4 --co
 |--------|-------------|
 | `--opencode` | Install for OpenCode only |
 | `--copilot` | Install for GitHub Copilot only |
+| `--claudecode` | Install for Claude Code only |
 | `--all` | Install for all platforms without prompting |
 | `--no-tui` | Non-interactive mode with defaults |
 | `--model <model>` | Specify model for OpenCode (e.g., `anthropic/claude-sonnet-4`) |
@@ -137,6 +142,7 @@ The Learn agent comes with several color presets:
 - One of the following:
   - [OpenCode](https://opencode.ai) installed and configured
   - [GitHub Copilot](https://github.com/features/copilot) subscription
+  - [Claude Code](https://claude.ai/code) CLI installed
 
 ## Manual Installation
 
@@ -152,6 +158,13 @@ The Learn agent comes with several color presets:
 2. Place it in your project's `.github/agents/learn.agent.md`
 3. Commit and push to your repository
 4. The Learn agent will appear in the Copilot agent dropdown
+
+### Claude Code
+
+1. Download `agents/learn.claude.md` from this repository
+2. Place it in `~/.claude/agents/learn.md`
+3. Start Claude Code and the Learn agent will be available
+4. Invoke with `@learn` in any conversation
 
 ## Contributing
 
