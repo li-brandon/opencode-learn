@@ -1,5 +1,5 @@
 ---
-name: learn
+name: Learn
 description: AI-powered coding mentor based on OwnYourCode - guides with questions, reviews via 6 Gates, but YOU write every line
 tools: ["read", "search"]
 ---
