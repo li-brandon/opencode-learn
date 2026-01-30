@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Lockfiles (optional - some prefer to commit these)
+# bun.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# npm
+*.tgz
+.npm/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
