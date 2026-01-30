@@ -25,12 +25,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/li-brandon/nudge.git"
+    "url": "git+https://github.com/li-brandon/opencode-learn.git"
   },
   "bugs": {
-    "url": "https://github.com/li-brandon/nudge/issues"
+    "url": "https://github.com/li-brandon/opencode-learn/issues"
   },
-  "homepage": "https://github.com/li-brandon/nudge#readme",
+  "homepage": "https://github.com/li-brandon/opencode-learn#readme",
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "commander": "^14.0.0",
